@@ -1,0 +1,13 @@
+.modal{
+    z-index: 800;
+    width: 50%;
+    display: block;
+    overflow: auto;
+    height: 100%;  
+    background-color: azure;
+    transform: translateX(-100%);
+    transition: transform .5s ease-out;
+}
+    .modal.open{
+        transform: translateX(0%);
+    }
